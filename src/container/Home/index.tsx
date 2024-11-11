@@ -3,7 +3,7 @@ import HomeComponents from "@/components/pages/Home";
 
 function HomeContainer() {
     return (
-        HomeComponents
+        <HomeComponents />
     );
 }
 

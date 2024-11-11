@@ -3,7 +3,8 @@ import { PATH } from '../constant/Route.constant';
 
 
 
-const HomeContainer = React.lazy(() => import('../container/product'));
+const HomeContainer = React.lazy(() => import('../container/Home'));
+
 export interface IRoute {
     path: string;
     element: ReactNode | ReactElement | FC;
