@@ -1,7 +1,8 @@
 
 export const PATH = {
     BLANK: '/',
-    HOME: '/home'
+    HOME: '/home',
+
 };
 
 
