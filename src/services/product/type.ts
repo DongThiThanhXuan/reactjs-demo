@@ -3,7 +3,7 @@ export interface IProductResponse {
     name: string;
     description: string;
     unitPrice: number;
-    imageUrl: string;
+    productImage: string;
     brand: string;
     unitsInStock: number;
     category: string;

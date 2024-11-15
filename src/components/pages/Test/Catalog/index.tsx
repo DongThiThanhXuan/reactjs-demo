@@ -12,7 +12,7 @@ const IconText = ({ icon, text }: { icon: React.ComponentType; text: string }) =
         {text}
     </Space>
 );
-export default function Catalog({ products }: CatalogProps) {
+export default function Catalog({ products }: { products: IProductResponse[] }) {
     const [images, setImages] = useState<{ [key: string]: string }>({});
     // Lấy hình ảnh cho mỗi sản phẩm
     useEffect(() => {
